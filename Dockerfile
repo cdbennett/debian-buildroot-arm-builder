@@ -13,6 +13,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         device-tree-compiler \
         file \
         git \
+        libncurses5-dev \
         python \
         rsync \
         ssh-client \
