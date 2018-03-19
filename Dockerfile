@@ -8,6 +8,7 @@ COPY remove-docs.sh /tmp/remove-docs.sh
 # as recommended dependencies.
 RUN apt-get update && apt-get install -y --no-install-recommends \
         bc \
+        ca-certificates \
         cpio \
         curl \
         device-tree-compiler \
