@@ -1,7 +1,7 @@
 FROM gibibit/debian-cpp:stretch
 MAINTAINER Colin Bennett <colin@gibibit.com>
 ARG DEBIAN_FRONTEND=noninteractive
-COPY dpkg-nodoc.conf /etc/dpkg/dpkg.conf.d/01_nodoc
+COPY dpkg-nodoc.conf /etc/dpkg/dpkg.cfg.d/01_nodoc
 COPY remove-docs.sh /tmp/remove-docs.sh
 # We give --no-install-recommends since 'git' pulls in
 # the ssh-client package which pulls in a ton of X11 packages
