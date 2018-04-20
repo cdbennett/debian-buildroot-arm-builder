@@ -13,7 +13,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         curl \
         device-tree-compiler \
         file \
+        gcc-multilib \
         git \
+        g++-multilib \
         libncurses5-dev \
         python \
         rsync \
